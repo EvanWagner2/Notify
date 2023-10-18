@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player & Note Taker</title>
+    <!-- Add your CSS and JavaScript links here -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Music Player & Note Taker</h1>
+    </header>
+
+    <main>
+        <section class="music-player">
+            <h2>Music Player</h2>
+            <!-- Add your music player elements here -->
+            <audio id="music-player" controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section class="note-taker">
+            <h2>Note Taker</h2>
+            <textarea id="note-input" placeholder="Take notes here..."></textarea>
+            <button id="save-note">Save Note</button>
+            <ul id="note-list">
+                <!-- Notes will be displayed here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Notify</p>
+    </footer>
+</body>
+
+</html>
